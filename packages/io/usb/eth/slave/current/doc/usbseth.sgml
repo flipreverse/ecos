@@ -1,4 +1,4 @@
-<!DOCTYPE reference  PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<!-- DOCTYPE reference  PUBLIC "-//OASIS//DTD DocBook V3.1//EN" -->
 
 <!-- {{{ Banner                         -->
 
@@ -36,7 +36,8 @@
 
 <!-- }}} -->
 
-<reference id="io-usb-slave-eth">
+<part id="io-usb-slave-eth">
+<!-- reference id="io-usb-slave-eth" -->
   <title>eCos Support for Developing USB-ethernet Peripherals</title>
 
 <!-- {{{ Intro                          -->
@@ -105,10 +106,7 @@ to a suitable network:
 <informalfigure PgWide=1>
 <mediaobject>
 <imageobject>
-<imagedata fileref="simple.eps" format="eps" Scalefit=1 Align="Center">
-</imageobject>
-<imageobject>
-<imagedata fileref="simple.gif" format="gif" Align="Center">
+<imagedata fileref="simple.png" Align="Center">
 </imageobject>
 </mediaobject>
 </informalfigure>
@@ -133,10 +131,7 @@ the peripheral.
 <informalfigure PgWide=1>
 <mediaobject>
 <imageobject>
-<imagedata fileref="tcpip.eps" format="eps" Scalefit=1 Align="Center">
-</imageobject>
-<imageobject>
-<imagedata fileref="tcpip.gif" format="gif" Align="Center">
+<imagedata fileref="tcpip.png" Align="Center">
 </imageobject>
 </mediaobject>
 </informalfigure>
@@ -811,4 +806,5 @@ driver has been activated.
 
 <!-- }}} -->
 
-</reference>
+</part>
+<!-- /reference -->
